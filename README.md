@@ -55,7 +55,7 @@ Editar o crontab:
 
 Executar a cada 30 minutos:
 
-    */30 * * * * /usr/bin/python3 /caminho/auto_commit.py /home/user/projetos/meu-repo >> /tmp/auto_commit.log 2>&1
+    */30 * * * * /usr/bin/python3 /home/github/auto_commit/auto_commit.py /home/github/anotacoes
 
 
 ## 📝 Mensagem de commit
