@@ -4,6 +4,8 @@ import os
 import sys
 from datetime import datetime
 
+os.environ["PATH"] = "/usr/bin:/bin"
+
 COMMIT_MSG_PREFIX = "Auto-commit"
 
 def run_git_command(repo_path, command):
